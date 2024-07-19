@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+</head>
+<body onload="setImages()">
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	<main id="main">
+		<div class="flex">
+			<img class = "preview" src="images/cake01.jpg" alt="A cake on a plate with flowers and a knife."
+				onmouseover = "upDate(this)"  onmouseout = "unDo()"
+				onfocus="focusFunc(this)" onblur="blurFunc(this)">
+			<img class = "preview" src="images/cake02.jpg" alt="A cake with colorful flowers on top, placed on a table."
+				onmouseover = "upDate(this)"  onmouseout = "unDo()"
+				onfocus="focusFunc(this)" onblur="blurFunc(this)">
+			<img class = "preview" src="images/cake03.jpg" alt="A white table with four mini desserts, including cake."
+				onmouseover = "upDate(this)"  onmouseout = "unDo()"
+				onfocus="focusFunc(this)" onblur="blurFunc(this)">
+			<img class = "preview" src="images/cake04.jpg" alt="Cake with blue icing and bunny ornaments."
+				onmouseover = "upDate(this)"  onmouseout = "unDo()"
+				onfocus="focusFunc(this)" onblur="blurFunc(this)">
+			<img class = "preview" src="images/cake05.jpg" alt="Wedding cake displayed on a table at a wedding reception."
+				onmouseover = "upDate(this)"  onmouseout = "unDo()"
+				onfocus="focusFunc(this)" onblur="blurFunc(this)">
+			<img class = "preview" src="images/cake06.jpg" alt="A cake decorated with blue and pink flowers."
+				onmouseover = "upDate(this)"  onmouseout = "unDo()"
+				onfocus="focusFunc(this)" onblur="blurFunc(this)">
+		</div>
+	</main>
+	<footer>
+		<p>This page was created by Huongct138 for the <a
+			href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
+		</p>
+	</footer>
+	<script src = "js/gallery.js"></script>
+</body>
+</html>
